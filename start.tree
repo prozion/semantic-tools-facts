@@ -1,0 +1,45 @@
+start
+	sources
+		AGI_Russia url:agirussia.org/ontology
+	chats_and_groups
+		Онтологии url:t.me/rusontology
+		Linked_Data_Russia url:t.me/LinkedDataRussia
+	ontology_editors
+		Protege url:protege.stanford.edu
+		Web_Protege url:webprotege.stanford.edu
+		Xturtle platform:Eclipse format:Turtle uses:XText2 
+	ontology_prefixes_tables
+		Orpha.net url:www.orpha.net/sparql?nsdecl
+	ontology_registries
+		ontology_lists
+			prefixes_lists
+				Ontology_archiver url:github.com/linkeddata/ontology-archiver/blob/master/all.ttl prefixes:2206
+			Vocab.org url:vocab.org
+		ontology_databases
+			Linked_Open_Vocabularies url:lov.linkeddata.es/dataset/lov
+		ontology_repositories
+			github_ontology_repositories
+				Omnlib url:github.com/w3c/omn/tree/master/omnlib/import ontologies:38
+			BioPortal url:bioportal.bioontology.org topic:biology d:"repository of biomedical ontologies" 
+			OntoBee url:ontobee.org topic:biology ontologies:246 source:RDF
+			OntoSelect url:olp.dfki.de/ontoselect active:<f>
+			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
+	ontology_projects
+		Schema.org url:schema.org
+		Wikidata url:wikidata.org
+	ontology_sparql_endpoints
+		DBpedia url:dbpedia.org/sparql
+	scripts
+		Rdf.sh url:github.com/seebi/rdf.sh d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
+	search_engines
+		Ontology_Lookup_Service url:ebi.ac.uk/ols/index topic:biology
+		Sindice url:sindice.com method:API
+		Swoogle url:swoogle.umbc.edu active:<?>
+	sparql
+		Virtuoso_SPARQL_Query_Editor url:orpha.net/sparql accepts:graph_IRI
+		Sparql type:cli url:jena.apache.org/documentation/tools
+	wikis
+		Protege_Wiki url:protegewiki.stanford.edu/wiki
+	validators
+		markup_validator
+			Schema.org_markup_validator url:validator.schema.org
