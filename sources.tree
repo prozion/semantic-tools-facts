@@ -1,3 +1,6 @@
 sources
 	AGI_Russia url:agirussia.org/ontology
 	Awesome_ontology url:github.com/ozekik/awesome-ontology
+	Awesome_semantic_web_business url:github.com/KMax/awesome-semantic-web-business rem:"about companies"
+ontology_prefixes_tables
+	Orpha.net url:www.orpha.net/sparql?nsdecl

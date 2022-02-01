@@ -59,8 +59,6 @@ start
 			Xturtle platform:Eclipse format:Turtle uses:XText2 
 		annotation_editors
 			Amaya based-on:Annotea uses:redland last:01.2012 url:w3.org/Amaya
-	ontology_prefixes_tables
-		Orpha.net url:www.orpha.net/sparql?nsdecl
 	ontology_registries
 		ontology_lists
 			prefixes_lists
@@ -85,6 +83,9 @@ start
 		companies
 			Inrupt cto:Tim_Berners-Lee
 		W3C url:w3c.org
+	permanent_URI
+		Purl url:purl.org
+		W3id url:w3id.org
 	projects
 		Annotea url:w3.org/2001/Annotea last-activity:01.2003 d:"Annotea enhances collaboration via shared metadata based Web annotations, bookmarks, and their combinations"
 	rdf_servers
@@ -95,20 +96,19 @@ start
 		Sindice url:sindice.com method:API
 		Swoogle url:swoogle.umbc.edu active:<f>
 		Watson_Search_Engine url:kmi-web05.open.ac.uk/WatsonWUI active:<f> pub-url:semantic-web-journal.net/sites/default/files/swj96_1.pdf
+	semantic_browsers
+		Haystack company-url:haystack.csail.mit.edu
+		IsaViz url:w3.org/2001/11/IsaViz
+		LodLive url:en.lodlive.it
+		Longwell url:<?>
+		Mirovizor url:mirovizor.com
 	sparql
 		Virtuoso_SPARQL_Query_Editor url:orpha.net/sparql accepts:graph_IRI
 		Sparql type:cli url:jena.apache.org/documentation/tools
 	sparql_endpoints
 		Yasgui url:yasgui.triply.cc
-	permanent_URI
-		Purl url:purl.org
-		W3id url:w3id.org
-	rdf_browsers
-		Haystack company-url:haystack.csail.mit.edu
-		IsaViz url:w3.org/2001/11/IsaViz
-		LodLive url:en.lodlive.it
-		Longwell url:<?>
 	wikis
+		Энциклопедия_менеджмента_знаний url:kmwiki.ru
 		Protege_Wiki url:protegewiki.stanford.edu/wiki
 	validators
 		markup_validator
