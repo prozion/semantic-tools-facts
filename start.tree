@@ -2,12 +2,63 @@ start
 	sources
 		AGI_Russia url:agirussia.org/ontology
 	chats_and_groups
+		semantic_web_community_groups
+			Bibframe2Schema.org url:w3.org/community/bibframe2schema
+			Bioschemas_for_lifescience url:w3.org/community/bioschemas
+			Bridging_GraphQL_and_RDF url:w3.org/community/graphql-rdf
+			Datasheets url:w3.org/community/datasheets
+			Financial_Industry_Business_Ontology url:w3.org/community/fibo
+			Functional_Knowledge_Graph url:w3.org/community/fkg
+			Geospatial_Semantic_Web url:w3.org/community/geosemweb
+			HCLSCG deabbr:"Semantic Web in Health care and Life sciences" url:w3.org/community/hclscg
+			Knowledge_Graph_Construction url:w3.org/community/kg-construct
+			Notation_3 url:w3.org/community/n3-dev
+			Ontology-Lexica url:w3.org/community/ontolex
+			Owled name:"OWL: Experience and directions" url:w3.org/community/owled
+			Open_Annotation url:w3.org/community/openannotation
+			Open_Data_Directory url:w3.org/community/opendatadir
+			RDF_and_XML_Interoperability url:w3.org/community/rax
+			RDF_DEV url:w3.org/community/rdf-dev
+			RDF_JavaScript_Libraries url:w3.org/community/rdfjs
+			RDF_Stream_Processing url:w3.org/community/rsp
+			RDF_Test_Suite_Curation url:w3.org/community/rdf-tests
+			Semantic_Industries url:w3.org/community/semind
+			Semantic_News url:w3.org/community/semnews
+			Semantic_Open_Data url:w3.org/community/sodata
+			Semantic_Sensors_Networks url:w3.org/community/ssn-cg
+			Schema_Architypes url:w3.org/community/architypes
+			Schema.org_group url:w3.org/community/schemaorg
+			Schema.org_for_datasets url:w3.org/community/schemaorg4datasets
+			Schema_Bib_Extend url:w3.org/community/schemabibex
+			SKOS_and_OWL_for_Interoperabilty url:w3.org/community/skosowlinterop
+			SPARQL-ML url:w3.org/community/sparql-ml 
+			SPARQL_1.2 url:w3.org/community/sparql-12
+			SPARQL_Maintenance_of_EXISTS url:w3.org/community/sparql-exists
+			Vocabularies_for_big_data_analysis url:w3.org/community/bigdata-tools
+			Volunteering_Ontology url:w3.org/community/volunteering-ontology
 		Онтологии url:t.me/rusontology
 		Linked_Data_Russia url:t.me/LinkedDataRussia
-	ontology_editors
-		Protege url:protege.stanford.edu
-		Web_Protege url:webprotege.stanford.edu
-		Xturtle platform:Eclipse format:Turtle uses:XText2 
+	cli_tools
+		Rdf.sh url:github.com/seebi/rdf.sh uses:Roqet last:07.2019 d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
+	databases
+		Open_Data_Directory url:dir.w3.org active:<f>
+	languages ref:computer-science-facts/knowledge_engineering/languages_ke.tree
+	libraries
+		Lightweight_RDF libid:liblrdf url:sourceforge.net/projects/lrdf
+		Redland url:librdf.org lang:C d:"a set of free software C libraries that provide support for the Resource Description Framework (RDF)"
+			Rapper url:librdf.org/raptor/rapper.html uses:Raptor d:"Raptor RDF parsing and serializing utility"
+			Raptor rdfs/label:"Raptor RDF Syntax Library" libid:libraptor2 url:librdf.org/raptor github:github.com/dajobe/raptor d:"A library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax."
+			Redland_Library libid:redland d:"RDF API and triple store" uses:Raptor,Rascal
+			Redland_Language_Bindings lang:Perl,PHP,Python,Ruby
+			Roqet url:librdf.org/rasqal/roqet.html uses:Rascal d:"The roqet utility allows querying of RDF content using the Rasqal RDF query library"
+			Rascal libid:librasqal url:librdf.org/rasqal d:"a library that handles Resource Description Framework (RDF) query language syntaxes, query construction and execution of queries returning results as bindings, boolean, RDF graphs/triples or syntaxes."
+	editors
+		ontology_editors
+			Protege url:protege.stanford.edu
+			Web_Protege url:webprotege.stanford.edu
+			Xturtle platform:Eclipse format:Turtle uses:XText2 
+		annotation_editors
+			Amaya based-on:Annotea uses:redland last:01.2012 url:w3.org/Amaya
 	ontology_prefixes_tables
 		Orpha.net url:www.orpha.net/sparql?nsdecl
 	ontology_registries
@@ -23,23 +74,44 @@ start
 			BioPortal url:bioportal.bioontology.org topic:biology d:"repository of biomedical ontologies" 
 			OntoBee url:ontobee.org topic:biology ontologies:246 source:RDF
 			OntoSelect url:olp.dfki.de/ontoselect active:<f>
+			Prefix.cc url:prefix.cc
 			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
 	ontology_projects
-		Schema.org url:schema.org
+		Schema.org url:schema.org community:Schema.org_group
 		Wikidata url:wikidata.org
 	ontology_sparql_endpoints
 		DBpedia url:dbpedia.org/sparql
-	scripts
-		Rdf.sh url:github.com/seebi/rdf.sh d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
+	organizations
+		companies
+			Inrupt cto:Tim_Berners-Lee
+		W3C url:w3c.org
+	projects
+		Annotea url:w3.org/2001/Annotea last-activity:01.2003 d:"Annotea enhances collaboration via shared metadata based Web annotations, bookmarks, and their combinations"
+	rdf_servers
+		RDFDB url:home.hccnet.nl/th.v.d.gronde/dev/rdfdb last:07.2004
 	search_engines
+		Falcons url:iws.seu.edu.cn/services/falcons active:<f> pub-url:archive.thewebconf.org/www2008/papers/pdf/p1101-cheng.pdf
 		Ontology_Lookup_Service url:ebi.ac.uk/ols/index topic:biology
 		Sindice url:sindice.com method:API
-		Swoogle url:swoogle.umbc.edu active:<?>
+		Swoogle url:swoogle.umbc.edu active:<f>
+		Watson_Search_Engine url:kmi-web05.open.ac.uk/WatsonWUI active:<f> pub-url:semantic-web-journal.net/sites/default/files/swj96_1.pdf
 	sparql
 		Virtuoso_SPARQL_Query_Editor url:orpha.net/sparql accepts:graph_IRI
 		Sparql type:cli url:jena.apache.org/documentation/tools
+	sparql_endpoints
+		Yasgui url:yasgui.triply.cc
+	permanent_URI
+		Purl url:purl.org
+		W3id url:w3id.org
+	rdf_browsers
+		Haystack company-url:haystack.csail.mit.edu
+		IsaViz url:w3.org/2001/11/IsaViz
+		LodLive url:en.lodlive.it
+		Longwell url:<?>
 	wikis
 		Protege_Wiki url:protegewiki.stanford.edu/wiki
 	validators
 		markup_validator
 			Schema.org_markup_validator url:validator.schema.org
+	visualizers
+		OWLToUML url:github.com/twalcari/OwlToUml

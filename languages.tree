@@ -1,9 +1,0 @@
-languages
-	KIF
-	OWL
-formats
-	XML_RDF
-	XML_OWL
-	Turtle
-	Manchester_syntax
-	Functional_syntax
