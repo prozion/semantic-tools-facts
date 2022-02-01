@@ -1,5 +1,5 @@
 sources
-	AGI_Russia url:agirussia.org/ontology
+	AGI_Russia url:agirussia.org/ontology backed-by-url:github.com/agirussia/agirussia.github.io/blob/main/ontology/index.md
 	Awesome_ontology url:github.com/ozekik/awesome-ontology
 	Awesome_semantic_web_business url:github.com/KMax/awesome-semantic-web-business rem:"about companies"
 ontology_prefixes_tables
