@@ -41,7 +41,9 @@ start
 	cli_tools
 		Rdf.sh url:github.com/seebi/rdf.sh uses:Roqet last:07.2019 d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
 	databases
+		DBpedia url:dbpedia.org
 		Open_Data_Directory url:dir.w3.org active:<f>
+		Wikidata url:wikidata.org
 	languages ref:computer-science-facts/knowledge_engineering/languages_ke.tree
 	libraries
 		Lightweight_RDF libid:liblrdf url:sourceforge.net/projects/lrdf
@@ -53,6 +55,9 @@ start
 			Redland_Language_Bindings lang:Perl,PHP,Python,Ruby
 			Roqet url:librdf.org/rasqal/roqet.html uses:Rascal d:"The roqet utility allows querying of RDF content using the Rasqal RDF query library"
 			Rascal libid:librasqal url:librdf.org/rasqal d:"a library that handles Resource Description Framework (RDF) query language syntaxes, query construction and execution of queries returning results as bindings, boolean, RDF graphs/triples or syntaxes."
+	merging_ontologies
+		Kazakov_Ponomaryov_2021 title:"On the Complexity of Semantic Integration of OWL Ontologies"
+		Ontology_Matching url:ontologymatching.org
 	editors
 		ontology_editors
 			Fluent_Editor url:cognitum.eu/Semantics/FluentEditor price:free
@@ -81,7 +86,7 @@ start
 		ontology_repositories
 			github_ontology_repositories
 				Omnlib url:github.com/w3c/omn/tree/master/omnlib/import ontologies:38
-			BioPortal url:bioportal.bioontology.org topic:biology d:"repository of biomedical ontologies" 
+			BioPortal url:bioportal.bioontology.org topic:biology ontlogies:963 d:"repository of biomedical ontologies" 
 			OntoBee url:ontobee.org topic:biology ontologies:246 source:RDF
 			OntoSelect url:olp.dfki.de/ontoselect active:<f>
 			Prefix.cc url:prefix.cc
@@ -109,7 +114,7 @@ start
 		RDFDB url:home.hccnet.nl/th.v.d.gronde/dev/rdfdb last:07.2004
 	search_engines
 		Falcons url:iws.seu.edu.cn/services/falcons active:<f> pub-url:archive.thewebconf.org/www2008/papers/pdf/p1101-cheng.pdf
-		Ontology_Lookup_Service url:ebi.ac.uk/ols/index topic:biology
+		Ontology_Lookup_Service url:www.ebi.ac.uk/ols/index topic:biology
 		Sindice url:sindice.com method:API
 		Swoogle url:swoogle.umbc.edu active:<f>
 		Watson_Search_Engine url:kmi-web05.open.ac.uk/WatsonWUI active:<f> pub-url:semantic-web-journal.net/sites/default/files/swj96_1.pdf
@@ -120,9 +125,11 @@ start
 		Longwell url:<?>
 		Mirovizor url:mirovizor.com
 	sparql
-		Virtuoso_SPARQL_Query_Editor url:orpha.net/sparql accepts:graph_IRI
+		DBpedia_Sparql url:dbpedia.org/sparql/
 		Sparql type:cli url:jena.apache.org/documentation/tools
+		Virtuoso_SPARQL_Query_Editor url:orpha.net/sparql accepts:graph_IRI
 	sparql_endpoints
+		BNF url:data.bnf.fr/sparql
 		Yasgui url:yasgui.triply.cc
 	sparql_servers
 		Apache_Jena_Fuseki type:triplestore platform:Java
