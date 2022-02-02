@@ -45,6 +45,7 @@ start
 	languages ref:computer-science-facts/knowledge_engineering/languages_ke.tree
 	libraries
 		Lightweight_RDF libid:liblrdf url:sourceforge.net/projects/lrdf
+		Ocaml-rdf project:OpenEngiadina url:codeberg.org/openEngiadina/ocaml-rdf lang:OCaml
 		Redland url:librdf.org lang:C d:"a set of free software C libraries that provide support for the Resource Description Framework (RDF)"
 			Rapper url:librdf.org/raptor/rapper.html uses:Raptor d:"Raptor RDF parsing and serializing utility"
 			Raptor rdfs/label:"Raptor RDF Syntax Library" libid:libraptor2 url:librdf.org/raptor github:github.com/dajobe/raptor d:"A library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax."
@@ -54,11 +55,22 @@ start
 			Rascal libid:librasqal url:librdf.org/rasqal d:"a library that handles Resource Description Framework (RDF) query language syntaxes, query construction and execution of queries returning results as bindings, boolean, RDF graphs/triples or syntaxes."
 	editors
 		ontology_editors
-			Protege url:protege.stanford.edu
-			Web_Protege url:webprotege.stanford.edu
-			Xturtle platform:Eclipse format:Turtle uses:XText2 
+			Fluent_Editor url:cognitum.eu/Semantics/FluentEditor price:free
+			OntoStudio url:semafora-systems.com/ontobroker-and-ontostudio-x price:<?>
+			OWLGrEd url:owlgred.lumii.lv
+				OWLGrEd_online url:owlgred.lumii.lv/online_visualization
+			Protege url:protege.stanford.edu price:free
+				Web_Protege url:webprotege.stanford.edu price:free
+			TopBraid_Composer url:topquadrant.com/products/topbraid-composer developer:TopQuadrant price-y:3450$ price-academic-edition-y:695$
+			Vitro url:github.com/vivo-project/Vitro platform:Java/Tomcat
+			VocBench url:vocbench.uniroma2.it uses:Semantic_Turkey
+			Xturtle platform:Eclipse format:Turtle uses:XText2 price:free
 		annotation_editors
 			Amaya based-on:Annotea uses:redland last:01.2012 url:w3.org/Amaya
+	frameworks
+		CODA deabbr:"Computer-aided Ontology Development Architecture" url:art.uniroma2.it/coda uses:UIMA
+		RDF4j url:rdf4j.org lang:Java
+		SemApps url:github.com/assemblee-virtuelle/semapps related-to:Fediverse
 	ontology_registries
 		ontology_lists
 			prefixes_lists
@@ -82,12 +94,17 @@ start
 	organizations
 		companies
 			Inrupt cto:Tim_Berners-Lee
+		The_ART_Research_Group url:art.uniroma2.it uni:uni/URome
 		W3C url:w3c.org
 	permanent_URI
 		Purl url:purl.org
 		W3id url:w3id.org
+	platforms
+		Semantic_Turkey url:semanticturkey.uniroma2.it uses:RDF4J,CODA
 	projects
 		Annotea url:w3.org/2001/Annotea last-activity:01.2003 d:"Annotea enhances collaboration via shared metadata based Web annotations, bookmarks, and their combinations"
+		OpenEngiadina url:codeberg.org/openengiadina related-to:Fediverse
+		Solid author:Tim_Berners-Lee url:solid.mit.edu
 	rdf_servers
 		RDFDB url:home.hccnet.nl/th.v.d.gronde/dev/rdfdb last:07.2004
 	search_engines
@@ -107,6 +124,8 @@ start
 		Sparql type:cli url:jena.apache.org/documentation/tools
 	sparql_endpoints
 		Yasgui url:yasgui.triply.cc
+	sparql_servers
+		Apache_Jena_Fuseki type:triplestore platform:Java
 	wikis
 		Энциклопедия_менеджмента_знаний url:kmwiki.ru
 		Protege_Wiki url:protegewiki.stanford.edu/wiki
