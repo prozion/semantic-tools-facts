@@ -39,12 +39,16 @@ start
 		Онтологии url:t.me/rusontology
 		Linked_Data_Russia url:t.me/LinkedDataRussia
 	cli_tools
-		Rdf.sh url:github.com/seebi/rdf.sh uses:Roqet last:07.2019 d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
+		Rdf.sh url:github.com/seebi/rdf.sh uses:Roqet last:07.2019 lang:bash d:"A multi-tool shell script for doing Semantic Web jobs on the command line"s
 	databases
 		DBpedia url:dbpedia.org
 		Open_Data_Directory url:dir.w3.org active:<f>
 		Wikidata url:wikidata.org
+	exercises
+		Ontology_Design_Patterns_Training url:ontologydesignpatterns.org/wiki/Training:Main
 	languages ref:computer-science-facts/knowledge_engineering/languages_ke.tree
+	learning_resources
+		Ontology_Design_Patterns url:ontologydesignpatterns.org
 	libraries
 		Lightweight_RDF libid:liblrdf url:sourceforge.net/projects/lrdf
 		Ocaml-rdf project:OpenEngiadina url:codeberg.org/openEngiadina/ocaml-rdf lang:OCaml
@@ -60,13 +64,18 @@ start
 		Ontology_Matching url:ontologymatching.org
 	editors
 		ontology_editors
+			Apollo last:2005 url:apollo.open.ac.uk
 			Fluent_Editor url:cognitum.eu/Semantics/FluentEditor price:free
+			Knoodl last:2017 web-archive-url:knoodl.com
+			NeOn_Toolkit last:2011 url:neon-toolkit.org/wiki/Main_Page.html
 			OntoStudio url:semafora-systems.com/ontobroker-and-ontostudio-x price:<?>
 			OWLGrEd url:owlgred.lumii.lv
 				OWLGrEd_online url:owlgred.lumii.lv/online_visualization
 			Protege url:protege.stanford.edu price:free
 				Web_Protege url:webprotege.stanford.edu price:free
+			SWOOP last:2007 url:github.com/ronwalf/swoop
 			TopBraid_Composer url:topquadrant.com/products/topbraid-composer developer:TopQuadrant price-y:3450$ price-academic-edition-y:695$
+			WebODE start:1999 end:2006 url:github.com/oeg-upm/webODE pub-url:ojs.aaai.org/index.php/aimagazine/article/view/1717/1615
 			Vitro url:github.com/vivo-project/Vitro platform:Java/Tomcat
 			VocBench url:vocbench.uniroma2.it uses:Semantic_Turkey
 			Xturtle platform:Eclipse format:Turtle uses:XText2 price:free
@@ -77,20 +86,27 @@ start
 		RDF4j url:rdf4j.org lang:Java
 		SemApps url:github.com/assemblee-virtuelle/semapps related-to:Fediverse
 	ontology_registries
+		crawler_aggregations
+			Ontaria url:w3.org/2004/ontaria end:2004 based-on:Semwalker
 		ontology_lists
 			prefixes_lists
 				Ontology_archiver url:github.com/linkeddata/ontology-archiver/blob/master/all.ttl prefixes:2206
+			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
 			Vocab.org url:vocab.org
 		ontology_databases
 			Linked_Open_Vocabularies url:lov.linkeddata.es/dataset/lov
 		ontology_repositories
 			github_ontology_repositories
 				Omnlib url:github.com/w3c/omn/tree/master/omnlib/import ontologies:38
-			BioPortal url:bioportal.bioontology.org topic:biology ontlogies:963 d:"repository of biomedical ontologies" 
+			BioPortal url:bioportal.bioontology.org topic:biology ontlogies:963 d:"repository of biomedical ontologies"
+			COLORE deabbr:"Common Logic Ontology Repositor" url:colore.oor.net lang:CL
+			Cupboard url:cupboard.open.ac.uk:8081/cupboard-search inactive:<t>
+			DAML_Ontology_Library lang:DAML url:www.daml.org/ontologies/
 			OntoBee url:ontobee.org topic:biology ontologies:246 source:RDF
 			OntoSelect url:olp.dfki.de/ontoselect active:<f>
 			Prefix.cc url:prefix.cc
-			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
+			ROMULUS last:2012 url:www.thezfiles.co.za/ROMULUS
+			SchemaWeb url:web.archive.org/web/20110222001252/http://schemaweb.info
 	ontology_projects
 		Schema.org url:schema.org community:Schema.org_group
 		Wikidata url:wikidata.org
@@ -124,6 +140,8 @@ start
 		LodLive url:en.lodlive.it
 		Longwell url:<?>
 		Mirovizor url:mirovizor.com
+	semantic_web_crawlers
+		Semwalker code-url:dev.w3.org/cvsweb/2004/semwalker
 	sparql
 		DBpedia_Sparql url:dbpedia.org/sparql/
 		Sparql type:cli url:jena.apache.org/documentation/tools
@@ -131,8 +149,10 @@ start
 	sparql_endpoints
 		BNF url:data.bnf.fr/sparql
 		Yasgui url:yasgui.triply.cc
-	sparql_servers
-		Apache_Jena_Fuseki type:triplestore platform:Java
+	triplestores
+		sparql_servers
+			Apache_Jena_Fuseki type:triplestore platform:Java
+		GraphDB company:Ontotext url:ontotext.com/products/graphdb
 	wikis
 		Энциклопедия_менеджмента_знаний url:kmwiki.ru
 		Protege_Wiki url:protegewiki.stanford.edu/wiki
@@ -141,3 +161,4 @@ start
 			Schema.org_markup_validator url:validator.schema.org
 	visualizers
 		OWLToUML url:github.com/twalcari/OwlToUml
+		Obonet uses:networkx lang:python format:OBO
