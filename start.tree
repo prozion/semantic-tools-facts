@@ -16,21 +16,30 @@ start
 		Ontology_Matching url:ontologymatching.org
 	ontology_browsers
 		OLSVis url:ols.wordvis.com d:"visual browser for EBI's OLS"
+	exercises
+		Ontology_Design_Patterns_Training url:ontologydesignpatterns.org/wiki/Training:Main
 	ontology_registries
+		crawler_aggregations
+			Ontaria url:w3.org/2004/ontaria end:2004 based-on:Semwalker
 		ontology_lists
 			prefixes_lists
 				Ontology_archiver url:github.com/linkeddata/ontology-archiver/blob/master/all.ttl prefixes:2206
+			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
 			Vocab.org url:vocab.org
 		ontology_databases
 			Linked_Open_Vocabularies url:lov.linkeddata.es/dataset/lov
 		ontology_repositories
 			github_ontology_repositories
 				Omnlib url:github.com/w3c/omn/tree/master/omnlib/import ontologies:38
-			BioPortal url:bioportal.bioontology.org topic:biology ontlogies:963 d:"repository of biomedical ontologies" 
+			BioPortal url:bioportal.bioontology.org topic:biology ontlogies:963 d:"repository of biomedical ontologies"
+			COLORE deabbr:"Common Logic Ontology Repositor" url:colore.oor.net lang:CL
+			Cupboard url:cupboard.open.ac.uk:8081/cupboard-search inactive:<t>
+			DAML_Ontology_Library lang:DAML url:www.daml.org/ontologies/
 			OntoBee url:ontobee.org topic:biology ontologies:246 source:RDF
 			OntoSelect url:olp.dfki.de/ontoselect active:<f>
 			Prefix.cc url:prefix.cc
-			Protege_Ontology_Library url:protegewiki.stanford.edu/wiki/Protege_Ontology_Library
+			ROMULUS last:2012 url:www.thezfiles.co.za/ROMULUS
+			SchemaWeb url:web.archive.org/web/20110222001252/http://schemaweb.info
 	ontology_projects
 		Schema.org url:schema.org community:Schema.org_group
 		Wikidata url:wikidata.org
