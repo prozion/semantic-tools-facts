@@ -1,0 +1,61 @@
+jena
+	org.apache.jena.enhanced
+		EnhNode
+	org.apache.jena.query
+		Dataset
+			getDefaultModel
+	org.apache.jena.reasoner
+		org.apache.jena.reasoner.rulesys
+			RDFSRuleReasonerFactory
+		Reasoner
+		ReasonerRegistry
+			getRDFSReasoner static:<t>
+		ReasonerVocabulary
+		ValidityReport
+			getReports
+			isValid
+	org.apache.jena.rdf.model
+		InfModel extends:Model
+			getRawModel
+			validate
+		Model pkg:org.apache.jena.rdf.model
+			add
+			createProperty
+			createResource
+			getProperty
+			getResource
+			read return:Model
+			removeAll comment:"maybe doesn't work"
+		ModelFactory
+			createDefaultModel static:<t>
+			createInfModel static:<t>
+			createRDFSModel static:<t>
+		Query
+		QueryExecution
+			execSelect
+			execConstruct
+		QueryExecutionFactory
+			create static:<t>
+		QueryFactory
+			create static:<t>
+		ReadWrite
+			READ static:<t>
+			WRITE static:<t>
+		ResourceFactory pkg:org.apache.jena.rdf.mode
+			createProperty static:<t>
+			createResource static:<t>
+			createStringLiteral static:<t>
+			createStatement static:<t>
+		ResultSet pkg:org.apache.jena.query
+			get
+			hasNext
+			nextSolution
+			varNames
+	org.apache.jena.tdb
+		TDBFactory
+			createDataset static:<t>
+	org.apache.jena.vocabulary
+		RDFS
+			subPropertyOf static:<t>
+
+

@@ -1,0 +1,37 @@
+chats_and_groups
+	semantic_web_community_groups
+		Bibframe2Schema.org url:w3.org/community/bibframe2schema
+		Bioschemas_for_lifescience url:w3.org/community/bioschemas
+		Bridging_GraphQL_and_RDF url:w3.org/community/graphql-rdf
+		Datasheets url:w3.org/community/datasheets
+		Financial_Industry_Business_Ontology url:w3.org/community/fibo
+		Functional_Knowledge_Graph url:w3.org/community/fkg
+		Geospatial_Semantic_Web url:w3.org/community/geosemweb
+		HCLSCG deabbr:"Semantic Web in Health care and Life sciences" url:w3.org/community/hclscg
+		Knowledge_Graph_Construction url:w3.org/community/kg-construct
+		Notation_3 url:w3.org/community/n3-dev
+		Ontology-Lexica url:w3.org/community/ontolex
+		Owled name:"OWL: Experience and directions" url:w3.org/community/owled
+		Open_Annotation url:w3.org/community/openannotation
+		Open_Data_Directory url:w3.org/community/opendatadir
+		RDF_and_XML_Interoperability url:w3.org/community/rax
+		RDF_DEV url:w3.org/community/rdf-dev
+		RDF_JavaScript_Libraries url:w3.org/community/rdfjs
+		RDF_Stream_Processing url:w3.org/community/rsp
+		RDF_Test_Suite_Curation url:w3.org/community/rdf-tests
+		Semantic_Industries url:w3.org/community/semind
+		Semantic_News url:w3.org/community/semnews
+		Semantic_Open_Data url:w3.org/community/sodata
+		Semantic_Sensors_Networks url:w3.org/community/ssn-cg
+		Schema_Architypes url:w3.org/community/architypes
+		Schema.org_group url:w3.org/community/schemaorg
+		Schema.org_for_datasets url:w3.org/community/schemaorg4datasets
+		Schema_Bib_Extend url:w3.org/community/schemabibex
+		SKOS_and_OWL_for_Interoperabilty url:w3.org/community/skosowlinterop
+		SPARQL-ML url:w3.org/community/sparql-ml 
+		SPARQL_1.2 url:w3.org/community/sparql-12
+		SPARQL_Maintenance_of_EXISTS url:w3.org/community/sparql-exists
+		Vocabularies_for_big_data_analysis url:w3.org/community/bigdata-tools
+		Volunteering_Ontology url:w3.org/community/volunteering-ontology
+	Онтологии url:t.me/rusontology
+	Linked_Data_Russia url:t.me/LinkedDataRussia

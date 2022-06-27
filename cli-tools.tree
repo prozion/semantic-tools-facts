@@ -1,5 +1,0 @@
-command-line-tools
-	validators
-	readers
-	visualizators
-		obonet uses:networkx lang:python format:obo

@@ -1,0 +1,3 @@
+reasoners
+	FaCT
+	SWCLOS deabbr:"Semantic WEb processor for OWL based on CLOS" lang:Common_Lisp lang-impl:Allegro_CL url:www-kasm.nii.ac.jp/~koide/SWCLOS2-en.htm github:github.com/SeijiKoide/SWCLOS

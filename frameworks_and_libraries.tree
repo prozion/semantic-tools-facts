@@ -1,0 +1,29 @@
+frameworks_and_libraries
+	frameworks
+		CODA deabbr:"Computer-aided Ontology Development Architecture" url:art.uniroma2.it/coda uses:UIMA
+		Ontodia env:Nodejs
+		OSF deabbr:"Open Semantic Framework" 
+		RDF4j url:rdf4j.org lang:Java
+		SemApps url:github.com/assemblee-virtuelle/semapps related-to:Fediverse
+		Semantic_Turkey developer:URome,URome2 platform:Java,Firefox
+		Jena alt-id:Apache_Jena lang:Java
+			Apache_ARQ d:"query engine"
+		pOWL url:sourceforge.net/projects/powl
+		WebODE start:1999 end:2006
+		Vitro url:github.com/vivo-project/Vitro env:Java/Tomcat
+	libraries
+		jOWL uses:JQuery lang:Javascript d:"visualization of OWL files"
+		Lightweight_RDF libid:liblrdf url:sourceforge.net/projects/lrdf
+		networkx lang:python url:networkx.org
+		Ocaml-rdf project:OpenEngiadina url:codeberg.org/openEngiadina/ocaml-rdf lang:OCaml
+		Redland url:librdf.org lang:C d:"a set of free software C libraries that provide support for the Resource Description Framework (RDF)"
+			Rapper url:librdf.org/raptor/rapper.html uses:Raptor d:"Raptor RDF parsing and serializing utility"
+			Raptor rdfs/label:"Raptor RDF Syntax Library" libid:libraptor2 url:librdf.org/raptor github:github.com/dajobe/raptor d:"A library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax."
+			Redland_Library libid:redland d:"RDF API and triple store" uses:Raptor,Rascal
+			Redland_Language_Bindings lang:Perl,PHP,Python,Ruby
+			Roqet url:librdf.org/rasqal/roqet.html uses:Rascal d:"The roqet utility allows querying of RDF content using the Rasqal RDF query library"
+			Rascal libid:librasqal url:librdf.org/rasqal d:"a library that handles Resource Description Framework (RDF) query language syntaxes, query construction and execution of queries returning results as bindings, boolean, RDF graphs/triples or syntaxes."
+	unclassified_systems
+		Ergo company:Coherent_Knowledge extends:Flora-2
+		Flora-2 language-from:F-Logic,HiLog,Transaction_logic d:"Open source semantic rule-based system for knowledge representation and reasoning"
+		Onion

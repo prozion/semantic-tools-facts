@@ -1,0 +1,73 @@
+languages
+	CL alt-id:Common_Logic developer:ISO logic-type:first_order_logic
+	CGIF deabbr:"Conceptual Graph Interchange Format" part-of:CL
+	CLIF deabbr:"Common Logic Interchange Format" part-of:CL
+	CML deabbr:"Conceptual Modeling Language"
+	Core_RIF dialect-of:RIF
+	CycL
+	DAML deabbr:"DARPA Agent Markup Language" alt-id:DAML+OIL developer:DARPA syntax:RDF-XML,XML
+	Datalog
+	DOGMA
+	FLogic alt-id:F-Logic
+	Gellish
+	IDEF5
+	KIF deabbr:"Knowledge Interchange Format" developer:DARPA from:PostScript
+	KL-ONE developer:Ronald_Brachman start:1985? type:frame_language
+	LBase
+	LEGO deabbr:"Logical Extension of GO" extension-of:GO
+	LOOM from:KL-ONE,KIF
+	MOF
+	MQL deabbr:"Metaweb Query Language"
+	OBO
+	OCML deabbr:"Operational Conceptual Modelling Language"
+	OIL deabbr:"Ontology Inference Layer"
+	OKBC deabbr:"Open Knowledge Base Connectivity"
+	Olog
+	OntoUML
+	OpenGraph developer:Facebook
+	OWL deabbr:"Web Ontology Language" from:KL-ONE syntax:OWL/XML,Functional_Syntax,Manchester_Syntax schema-url:w3.org/2002/07/owl
+	OWL1 is-a:OWL
+	OWL2 is-a:OWL
+	OWL_DL deabbr:"OWL Description Logics" part-of:OWL2
+	OWL_EL part-of:OWL_DL d:"for models with big number of classes and properties"
+	OWL_QL part-of:OWL_DL d:"for models with big number of instances"
+	OWL_RL part-of:OWL_DL d:"rule-based" from:pD*
+	OWL_Full part-of:OWL2
+	OWL-Horst
+	OWL_Lite part-of:OWL1 status:obsolete
+	pD*
+	RDF deabbr:"Resource Description Framework" org:W3C syntax:RDF/XML,RDFa,Turtle start:1997:draft,2004:v1 validator-url:w3.org/RDF/Validator
+	RDF-S deabbr:"RDF Schema"
+	RIF deabbr:"Rule Interchange Format"
+	RIF_BLD deabbr:"RIF Basic Logic Dialect" dialect-of:RIF
+	RIF_PRD deabbr:"RIF Production Rule Dialect" dialect-of:RIF
+	SADL deabbr:"Semantic Application Design Language"
+	SBVR deabbr:"Semantics of Business Vocabularies and Rules"
+	SERQL deabbr:"Second Generation RDF Query Language"
+	SHOE deabbr:"Simple HTML Ontology Extensions"
+	SPARQL standard-url:w3.org/TR/2013/REC-sparql11-query-20130321,w3.org/TR/2013/REC-sparql11-protocol-20130321
+	SPARQL_Update
+	SPIN deabbr:"SPARQL Inference Notation" spec:w3.org/Submission/spin-overview
+	SWRL deabbr:"Semantic Web Rule Language" syntax:Datalog_RuleML spec:w3.org/Submission/SWRL
+	TOVE_Project
+	XCL d:"XML-based notation for CL" based-on:XML part-of:CL
+	XODL
+	UPML
+syntaxes
+	Datalog_RuleML
+	Functional_Syntax spec:w3.org/TR/owl2-syntax/#Functional-Style_Syntax
+	Manchester_Syntax
+	N-Quads extends:N-Triples
+	N-Triples spec:w3.org/TR/2014/REC-n-triples-20140225 subset-of:Turtle developer:Dave_Backett,Art_Barslow uni:UBristol org:W3C
+	Notation3 alt-id:N3 developer:TimBL start:2008
+	OWL/XML
+	RDFa spec:w3.org/TR/rdfa-core approach:Microformat
+	RDFa_Lite subset-of:RDFa
+	RDF/XML
+	RDF* syn:RDF-star url:w3c.github.io/rdf-star/cg-spec/2021-07-01.html
+	Turtle spec:w3.org/TR/turtle file-ext:"ttl" subset-of:Notation3 validator-url:librdf.org/parse,rdfabout.com/demo/validator
+formats
+	HDT deabbr:"Header, Dictionary, Triples" url:rdfhdt.org
+	JSON-LD deabbr:"JSON for Linking Data"
+	
+	

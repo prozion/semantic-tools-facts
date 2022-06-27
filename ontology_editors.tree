@@ -1,0 +1,101 @@
+ontology_viewers
+	ontology_editors
+		Anzo uses:AnzoGraph price:<?> d:"knowledge graph platform"
+		Be_Informed_Suite price:<?> 
+		CmapTools developer:IHMC platform:Java 
+		DOGMA 
+		DogmaModeler 
+		Dot15926_Editor platform:Python url:github.com/TechInvestLab/dot15926
+		Eclipse
+			EMFText_OWL2_Manchester_Editor
+			KOMMA installable:<error>
+			NavigOWL installable:no_site
+			TwoUse_Toolkit
+			Xturtle url:github.com/AKSW/Xturtle format:Turtle uses:XText2 price:free
+		Enterprise_Architect developer:Sparx_Systems 
+			Model_Futures_IDEAS_Addin
+		Excel
+			Anzo_for_Excel developer:Cambridge_Semantics 
+			OntoStudio url:semafora-systems.com/ontobroker-and-ontostudio-x price:<?>
+		Fluent_Editor lang:CNL installable:failed_download url:cognitum.eu/Semantics/FluentEditor price:free
+		FlexViz url:sourceforge.net/projects/flexviz platform:Adobe_Flash_Builder lang:Adobe_Flex,ActionScript last-version:2010
+		GrOWL url:sourceforge.net/projects/graphicowl platform:Java
+		Haystack company-url:haystack.csail.mit.edu
+		HOZO developer:UOsaka,Enegate_Co platform:Java url:hozo.jp
+		IsaViz url:w3.org/2001/11/IsaViz
+		JOE deabbr:"Java Ontology Editor" 
+		Kads22 ontolang:CML
+		KAON developer:FZI/AIFB 
+		KMgen year:2009 os:windows url:algo.be/ref-projects.htm
+		Knoocks deabbr:"Knowledge Blocks" year:2008 d:"Visualization approach which focuses on instances related to their structure"
+		Knoodl developer:Revelytix_Inc 
+		LodLive url:en.lodlive.it
+		Longwell url:simile.mit.edu/wiki/Longwell last-version:2007 d:"RDF browser"
+		Menthor_Editor ontolang:OntoUML url:github.com/MenthorTools/menthor-editor platform:Java build-env:Eclipse
+		Mirovizor url:mirovizor.com d:"Атлас смыслового пространства"
+		Model_Futures_OWL_Editor 
+		MyWeb platform:Java 
+		Neologism platform:Drupal 
+		NeOn_Toolkit installable:requires_old_version_of_JRE platform:Eclipse
+			Ontology_visualizer
+			KC-Viz
+		OBIS 
+		OBO-Edit env:JRE developer:GO_Consortium,BBOP url:oboedit.org installable:<yes>
+		ODE deabbr:"Ontology-based software Development Environment" start:2003 uni:FUES 
+		OilEd ontolang:DAML+OIL reasoner:FaCT url:oiled.semanticweb.org d:"simple editor that demonstrates the use of OIL language"
+		OntoClean 
+		Ontolingua developer:UStanford
+			Chimaera developer:UStanford url:ksl.stanford.edu/software/chimaera year:2000
+		ONTOLIS 
+		Ontological_Design_Environment abbr:ODE
+		OntoEdit developer:UKarlsruhe ontolang:DAML+OIL,RDF,F-Logic price:free,<?>
+		Ontotext url:ontotext.com uses:GraphDB d:"Only rpm or deb packages for Linux"
+		OntoRama platform:Java d:"Hyperbolic-style browser designed to render RDF files as structured ontological maps"
+		OntoSaurus ontolang:LOOM
+		OntoSELF developer:Ramanathan_Somasundaram_Ontologies d:"3D visualization of ontologies"
+		OntoTrack year:2005 ontolang:OWL_Lite
+		Ontoviewer alt-id:FIBO_Viewer start:2019 platform:Java rdfs/comment:"may be launched as a localhost server"
+		Onto_Studio developer:Semafora_Systems platform:Eclipse implements:Object_Logic 
+		OWLGrEd url:owlgred.lumii.lv installable:failed_download
+		OWL_VisMod article-url:rcolomo.com/papers/147.pdf
+		PoolParty_Thesaurus_Server developer:Semantic_Web_Company
+		Protege url:protege.stanford.edu installable:<yes> developer:UManchester,UStanford online:Web_Protege price:free 
+			GLOW
+			Jambalaya url:thechiselgroup.org/jambalaya installable:<no>
+			OntoGraf
+			OntoSphere
+			OntoViz
+			OWLViz
+			Protege_Entity_Browser
+			SOVA installable:<yes>
+			TGViz installable:<no>
+			VOWL installable:<yes> online:WebVOWL
+		ScholOnto  
+		Semaphore_Ontology_Manager developer:Smartlogic 
+		Sigma_Knowledge_Engineering_Environment 
+		Synaptica developer:Synaptica_LLC 
+		SWOOP type:ontology_browser developer:UMaryland platform:Java last-version:2007
+			Crop_Circles
+		Thesaurus_Master 
+		TODE platform:DOTNET 
+		TopBraid_Composer url:topquadrant.com/products/topbraid-composer platform:Eclipse developer:TopQuadrant price-y:3450$ price-academic-edition-y:695$
+		WebOnto ontolang:OCML
+		WebODE_Ontology_Editor part-of:WebODE url:github.com/oeg-upm/webODE developer:TUMadrid 
+		VisualParadigm
+			OntoUML from:Menthor_Editor
+		VocBench url:vocbench.uniroma2.it uses:Semantic_Turkey developer:URome2,FAO
+		yEd
+			Graffoo url:essepuntato.it/graffoo
+		ВИКОНТ year:1999 ontolang:KIF article-url:rcdl.ru/doc/1999/13.pdf deabbr:"ВИзуальный Конструктор ОНТологий"
+	online_ontology_editors
+		Ontonet url:ontonet.ru d:"No OWL files uploading in the GUI. Such API did exist, but currently is turned off for public use."
+		OWLGrEd_online app-url:owlgred.lumii.lv/online_visualization rdfs/comment:"Only class visualization"
+		WebVOWL url:vowl.visualdataweb.org/webvowl.html app-url:service.tib.eu/webvowl old-app-url:vowl.visualdataweb.org/webvowl-old/webvowl-old.html
+		Web_Protege app-url:webprotege.stanford.edu price:free
+		
+		
+		
+		
+
+		
+

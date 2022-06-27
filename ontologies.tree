@@ -1,0 +1,83 @@
+general_ontologies alt-id:upper_ontologies
+	BFO deabbr:"Basic Formal Ontology" developer:Barry_Smith
+	COLORE uses:CL
+	COSMO url:micra.com/COSMO based-on:SUMO,OpenCyc d:"Foundation Ontology that is designed to contain representations of all of the primitive concepts needed to logically specify the meanings of any domain entity"
+	Cyc start:1984 company:Cycorp lang:Lisp,CycL d:"AI-project attempting to assemble a comprehensive ontology and knowledge base that spans the basic concepts and 'rules of thumb' about how the world works"
+	DOLCE deabbr:"Descriptive Ontology for Linguistic and Cognitive Engineering" type:upper_ontology
+	Dublin_Core released:1995 created-on:OCLC/NCSA_Metadata_Workshop schema-url:purl.org/dc/elements/1.1
+	FOAF deabbr:"Friend of a Friend"
+	FrameNet owner:ICSI
+	Gellish_English_dictionary d:"Ontology that includes a dictionary and taxonomy that includes an upper ontology and a lower ontology that focuses on industrial and business applications in engineering, technology and procurement"
+	GFO deabbr:"General formal ontology" type:upper_ontology developer:Heinrich_Herre,Barbara_Heller research-group:Onto-Med
+	GOLD deabbr:"General Ontology for Linguistic Description"
+	GUM deabbr:"Generalized Upper Model"
+	Linkbase upon:BFO
+	OpenCyc released:2002 concepts:6000 facts:60000 license:Apache_License
+	ProbOnto d:"Knowledge base and ontology of probability distributions"
+	ResearchCyc released:2006
+	SKOS deabbr:"Simple Knowledge Organization System" spec:w3.org/2009/08/skos-reference/skos.html
+	SUMO deabbr:"Suggested Upper Merged Ontology" released:2000 company:Teknowledge_Corporation,Articulate_Software lang:SUO-KIF type:opensource
+	SUO deabbr:"Standard Upperlevel Ontology" url:suo.ieee.org
+	UFO type:upper_ontology deabr:"Unified Foundational Ontology" developer:Giancarlo_Guizzardi
+	UMBEL deabbr:"Upper Mapping and Binding Exchange Layer" released:2008 lang:SKOS,OWL2 concepts:34K type:upper_ontology
+	YAMATO deabbr:"Yet Another More Advanced Top-level Ontology" type:upper_ontology released:1999 article-url:download.hozo.jp/onto_library/YAMATO101216.pdf
+specialized_ontologies
+	AAT deabbr:"Art and Architecture Thesaurus"
+	AURUM d:"Information security ontology"
+	BabelNet source:WordNet,Wikipedia company:URome
+	BioPAX deabbr:"Biological Pathway Exchange" exported-by-database:Reactome,BioCyc,SGMP,INOH,BioModels,NCI-PID,Cancer_Cell_Map,Pathway_Commons,Netpath,ConsensusPathDB,PANTHER,WikiPathways,PharmGKB software:Paxtools,Sybil,ChiBE,BioPAX_Validator,Cytoscape,BiNoM,BioPAX-pattern
+	BMO deabbr:"Business Model Ontology"
+	GALEN old-url:openclinical.org/prj_galen.html
+	CCO deabbr:"Cell Cycle Ontology"
+	CContology deabbr:"Customer Complaint Ontology"
+	CIDOC_Conceptual_Reference_Model org:ICOM d:"Extensible ontology for concepts and information in cultural heritage and museum documentation"
+	Disease_Ontology d:"Ontology designed to facilitate the mapping of diseases and associated conditions to particular medical codes" member-of:OBO
+	Drammar d:"Ontology of drama"
+	EDAM name:"EMBRACE Data And Methods" article:Ison_2013 parent-project:EMBRACE
+	FIBO deabbr:"Financial Industry Business Ontology"
+	FYPO deabbr:"Fission Yeast Phenotype Ontology"
+	Foundational_Model_of_Anatomy d:"Ontology for human anatomy"
+	GAO deabbr:"General Automotive Ontology"
+	Gene_Ontology ref:systems_biology/Gene_Ontology
+	GeoNames
+	Geopolitical_ontology
+	GO deabbr:"Gene Ontology"
+	GoodRelations
+	GexKB deabbr:"Gene Expression Knowledge Base"
+	IDEAS_Group d:"A formal ontology for enterprise architecture being developed by the Australian, Canadian, UK and U.S. Defence Depts"
+	Linkbase upon:BFO
+	LPL deabbr:"Lawson Pattern Language"
+	NCBO_Bioportal d:"Biological and biomedical ontologies and associated tools to search, browse and visualise"
+	NCIT deabbr:"National Cancer Institute Thesaurus" url:bioportal.bioontology.org/ontologies/NCIT
+	NIFSTD deabbr:"NIF Standard Ontologies" part-of:Neuroscience_Information_Framework
+	OBO alt-id:OBO_Foundry d:"A suite of interoperable reference ontologies in biology and biomedicine"
+	OMNIBUS_Ontology d:"An ontology of learning, instruction, and instructional design"
+	Ontology_for_Biomedical_Investigations
+	ONSTR deabbr:"Ontology for Newborn Screening Follow-up and Translational Research" company:Emory_University
+	Plant_Ontology company:EMBL-EBI url:ebi.ac.uk/ols/ontologies/po
+	PRO deabbr:"Protein Ontology" part-of:PIR company:UGeorgetown
+	Program_abstraction_taxonomy
+	POPE deabbr:"Purdue Ontology for Pharmaceutical Engineering"
+	ProbOnto d:"Knowledge base and ontology of probability distributions"
+	Product_Ontology url:productontology.org
+	RXNO_Ontology company:RSC associated-with:OBO_Foundry d:"The name reactions in chemistry" 
+	SBO deabbr:"Systems Biology Ontology"
+	Sequence_Ontology member-of:OBO
+	SNOMED_CT deabbr:"Systematized Nomenclature of Medicine - Clinical Terms" url:snomed.org
+	SO deabbr:"Sequence Ontology"
+	SSBMO deabbr:"Strongly Sustainable Business Model Ontology"
+	SWEET deabbr:"Semantic Web for Earth and Environmental Terminology"
+	ThoughtTreasure url:github.com/eriktmueller/thoughttreasure d:"Commonsense knowledge base and architecture for natural language processing" book:Natural_Language_Processing_with_ThoughtTreasure book-url:amazon.com/gp/product/1478171650
+	TGN deabbr:"The Thesaurus of Geographic Names"
+	TIME-ITEM d:"Ontology of Topics that describes the content of undergraduate medical education" start:2006 company:UOttawa
+	TOVE deabbr:"Toronto Virtual Enterprise Project"
+	Uberon d:"Animal anatomical structures"
+	ULAN deabbr:"Unified List of Artist Names"
+	UNSPSC url:unspsc.org
+	WildLife_Ontology company:BBC
+taxonomies
+	Open_Directory old-url:dmoz.org url:dmoztools.net ontology-related-url:bit.ly/2VSJvqX company:AOL start:1998 end:2017
+	Schema.org url:schema.org company:Google,Yahoo,Microsoft,Yandex
+	UMLS deabbr:"Unified Medical Language System"
+thesaurus
+	WordNet company:UPrinceton license:BSD type:upper_ontology

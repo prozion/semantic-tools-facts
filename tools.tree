@@ -1,0 +1,18 @@
+online_tools
+	Schema.org_markup_validator url:validator.schema.org d:"markup validator"
+command_line_tools
+	Apache_Jena_tools url:jena.apache.org/documentation/tools
+	Rdf.sh url:github.com/seebi/rdf.sh uses:Roqet last:07.2019 d:"A multi-tool shell script for doing Semantic Web jobs on the command line"
+	Tarql url:tarql.github.io lang:Java based-on:Apache_ARQ d:"CSV to RDF"
+visualizers
+	obonet uses:networkx lang:python format:obo d:"visualization"
+	OntoTrix year:2013 d:"visualization technique designed to visualize large instance sets and the relations that connect them"
+	OWLeasy-Viz
+	OWLToUML url:github.com/twalcari/OwlToUml
+	Triple20
+unclassified_tools
+	Linked_Pipes_ETL type:nonrdf->rdf
+	Karma type:nonrdf->rdf
+	SPARQL-Generate type:nonrdf->rdf
+	SETLr type:nonrdf->rdf
+	RML-Mapper type:nonrdf->rdf

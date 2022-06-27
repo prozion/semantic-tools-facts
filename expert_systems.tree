@@ -1,0 +1,4 @@
+expert_system
+	DENDRAL developer:Edward_Feigenbaum d:"helps organic chemists in identifying unknown organic molecules, by analyzing their mass spectra and using knowledge of chemistry"
+	MYCIN start:197x type:expert_system lang:Lisp developer:Edward_Shortliffe,Bruce_Buchanan,Stanley_Cohen
+	SAPPHIRE deabbr:"Situational Awareness and Preparedness for Public Health Incidences and Reasoning Engines" developer:Parsa_Mirhaji company:UTexas released:2004 type:health_information_system
